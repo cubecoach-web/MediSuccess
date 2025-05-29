@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediSuccess Publications - Master MDCAT Biology with Dr. Sohail</title>
+  
+  <meta name="description" content="Master MDCAT Biology with Dr. Sohail's comprehensive success guide. Featuring 1000+ MCQs, detailed explanations, memory techniques, and proven strategies for MDCAT success in Pakistan. Order your copy today!">
+  <meta name="keywords" content="MDCAT Biology, Dr. Sohail, MDCAT guide, medical entrance exam, biology MCQs, PMC syllabus, success guide, Pakistan medical entry test, NMDCAT preparation, biology book for MDCAT">
+  <meta name="author" content="MediSuccess Publications">
+  <meta name="robots" content="index, follow">
+  
+  <meta property="og:title" content="MediSuccess Publications - Master MDCAT Biology with Dr. Sohail">
+  <meta property="og:description" content="Master MDCAT Biology with Dr. Sohail's comprehensive success guide. Featuring 1000+ MCQs, detailed explanations, memory techniques, and proven strategies for MDCAT success in Pakistan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.yourwebsite.com/medisuccess"> <meta property="og:image" content="https://placehold.co/1200x630/0f766e/ffffff?text=MediSuccess+MDCAT+Biology"> <meta property="og:site_name" content="MediSuccess Publications">
+
+  <link rel="canonical" href="https://www.yourwebsite.com/medisuccess"> <link rel="icon" href="https://placehold.co/32x32/0f766e/ffffff?text=MS" type="image/png">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Base font family for all elements */
+    * { font-family: 'Inter', sans-serif; }
+    
+    /* Gradient background for specific elements */
+    .gradient-bg { background: linear-gradient(135deg, #0f766e 0%, #059669 50%, #10b981 100%); }
+    
+    /* Glassmorphism effect for certain UI components */
+    .glass-effect { 
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    /* Keyframe animation for floating elements */
+    @keyframes float { 
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    /* Keyframe animation for fade-in-up effect */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* Keyframe animation for slide-in-left effect */
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    
+    /* Keyframe animation for pulse-glow effect */
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 20px rgba(16, 185, 129, 0.4); }
+      50% { box-shadow: 0 0 40px rgba(16, 185, 129, 0.8); }
+    }
+    
+    /* Applying animations to elements */
+    .animate-float { animation: float 3s ease-in-out infinite; }
+    .animate-fadeInUp { animation: fadeInUp 0.8s ease-out; }
+    .animate-slideInLeft { animation: slideInLeft 0.8s ease-out; }
+    .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+    
+    /* Background pattern for the hero section */
+    .hero-pattern {
+      background-image: 
+        radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(6, 182, 212, 0.1) 0%, transparent 50%);
+    }
+    
+    /* Hover effect for cards */
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transform: perspective(1000px);
+    }
+    
+    .card-hover:hover {
+      transform: perspective(1000px) rotateX(5deg) translateY(-10px);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Progress bar styling */
+    .progress-bar {
+      width: 0%;
+      height: 4px;
+      background: linear-gradient(90deg, #10b981, #06b6d4);
+      transition: width 0.3s ease;
+    }
+
+    /* Testimonial card specific styling */
+    .testimonial-card {
+      background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+      border: 1px solid rgba(226, 232, 240, 0.8);
+    }
+
+    /* Gradient text for stats counter */
+    .stats-counter {
+      background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Gradient text for feature icons */
+    .feature-icon {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Sticky header styling with blur effect */
+    .sticky-header {
+      backdrop-filter: blur(20px);
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+    }
+
+    /* 3D book effect */
+    .book-3d {
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+    }
+
+    .book-3d:hover {
+      transform: rotateY(-15deg) rotateX(5deg);
+    }
+
+    /* Floating elements for visual flair */
+    .floating-elements {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .floating-elements::before,
+    .floating-elements::after {
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: linear-gradient(45deg, rgba(16, 185, 129, 0.1), rgba(6, 182, 212, 0.1));
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .floating-elements::before {
+      top: 10%;
+      left: 10%;
+      animation-delay: -2s;
+    }
+
+    .floating-elements::after {
+      bottom: 10%;
+      right: 10%;
+      animation-delay: -4s;
+    }
+
+    /* Spinner for loading states */
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #ffffff;
+      border-top: 2px solid transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Table specific styles for comparison section */
+    .comparison-table th, .comparison-table td {
+      padding: 1rem;
+      text-align: left;
+    }
+    .comparison-table th {
+      background-color: #f0fdf4; /* green-50 */
+      color: #10b981; /* green-600 */
+      font-weight: 600;
+      border-bottom: 2px solid #d1fae5; /* green-100 */
+    }
+    .comparison-table td {
+      border-bottom: 1px solid #e2e8f0; /* gray-200 */
+    }
+    .comparison-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+    .comparison-table .feature-column {
+      font-weight: 500;
+      color: #374151; /* gray-700 */
+    }
+    .comparison-table .dr-sohail-column {
+      color: #059669; /* green-700 */
+      font-weight: 600;
+    }
+    .comparison-table .other-guides-column {
+      color: #ef4444; /* red-500 */
+    }
+  </style>
+</head>
+<body class="bg-gray-50 scroll-smooth">
+  <div class="fixed top-0 left-0 w-full z-50">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+  <header id="header" class="fixed w-full top-0 z-40 transition-all duration-300">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center">
+          <i class="fas fa-microscope text-white text-lg"></i>
+        </div>
+        <div>
+          <h1 class="text-xl font-bold text-gray-800">MediSuccess Publications</h1>
+          <p class="text-xs text-gray-500">Biology with Dr. Sohail</p>
+        </div>
+      </div>
+      
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#home" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Home</a>
+        <a href="#features" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Features</a>
+        <a href="#testimonials" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Reviews</a>
+        <a href="#buy" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Order</a>
+        <a href="#contact" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Contact</a>
+        <a href="https://www.youtube.com/@BiologywithDrSohail" target="_blank" 
+           class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center space-x-2">
+          <i class="fab fa-youtube"></i>
+          <span>YouTube Channel</span>
+        </a>
+      </div>
+
+      <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg">
+      <div class="px-4 py-6 space-y-4">
+        <a href="#home" class="block text-gray-700 hover:text-green-600 transition-colors">Home</a>
+        <a href="#features" class="block text-gray-700 hover:text-green-600 transition-colors">Features</a>
+        <a href="#testimonials" class="block text-gray-700 hover:text-green-600 transition-colors">Reviews</a>
+        <a href="#buy" class="block text-gray-700 hover:text-green-600 transition-colors">Order</a>
+        <a href="#contact" class="block text-gray-700 hover:text-green-600 transition-colors">Contact</a>
+        <a href="https://www.youtube.com/@BiologywithDrSohail" target="_blank" 
+           class="block bg-red-600 text-white px-4 py-2 rounded-lg text-center">
+          <i class="fab fa-youtube mr-2"></i>YouTube Channel
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="min-h-screen flex items-center hero-pattern relative overflow-hidden py-10 md:py-20">
+    <div class="floating-elements"></div>
+    <div class="container mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div class="animate-slideInLeft text-center lg:text-left">
+          <div class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold mb-4 md:mb-6">
+            <i class="fas fa-star mr-2"></i>One of the best MDCAT guides in Pakistan
+          </div>
+          
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 md:mb-6 leading-snug sm:leading-tight">
+            Master <span class="bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">MDCAT Biology</span>
+            <br>with Confidence
+          </h1>
+          
+          <p class="text-base sm:text-lg text-gray-600 mb-6 md:mb-8 leading-relaxed">
+            Join 50,000+ successful students who conquered MDCAT with Dr. Sohail's comprehensive biology guide. 
+            Expert strategies, 1000+ practice questions, and guaranteed results.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 mb-6 md:mb-8 justify-center lg:justify-start">
+            <a href="#buy" class="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-xl font-semibold text-base sm:text-lg hover:shadow-xl transition-all transform hover:scale-105 animate-pulse-glow">
+              <i class="fas fa-rocket mr-2 sm:mr-3"></i>Start Your Journey - Rs. 1,500
+            </a>
+            <a href="https://www.youtube.com/watch?v=6V25qR8zb6Q" target="_blank" 
+               class="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-white text-gray-700 rounded-xl font-semibold text-base sm:text-lg border-2 border-gray-200 hover:border-green-500 transition-all">
+              <i class="fas fa-play mr-2 sm:mr-3 text-green-600"></i>Watch Preview
+            </a>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-center lg:justify-start space-x-4 sm:space-x-8 text-xs sm:text-sm text-gray-500">
+            <div class="flex items-center space-x-1 sm:space-x-2">
+              <i class="fas fa-shipping-fast text-green-600"></i>
+              <span>4-7 Days Delivery</span>
+            </div>
+            <div class="flex items-center space-x-1 sm:space-x-2">
+              <i class="fas fa-shield-alt text-green-600"></i>
+              <span>Money Back Guarantee</span>
+            </div>
+            <div class="flex items-center space-x-1 sm:space-x-2">
+              <i class="fas fa-headset text-green-600"></i>
+              <span>24/7 Support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="animate-fadeInUp flex justify-center lg:justify-end">
+          <div class="relative w-full max-w-sm sm:max-w-md">
+            <div class="book-3d bg-white rounded-2xl shadow-2xl p-6 sm:p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
+              <div class="bg-gradient-to-br from-green-500 to-teal-600 rounded-xl p-4 sm:p-6 text-white mb-4 sm:mb-6">
+                <h3 class="text-xl sm:text-2xl font-bold mb-1 sm:mb-2">MDCAT Biology</h3>
+                <p class="text-green-100 text-sm sm:text-base">Complete Success Guide</p>
+                <div class="flex items-center justify-between mt-3 sm:mt-4">
+                  <span class="text-green-100 text-sm sm:text-base">Dr. Sohail</span>
+                  <div class="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-full flex items-center justify-center">
+                    <i class="fas fa-microscope text-lg sm:text-xl"></i>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="space-y-3 sm:space-y-4 text-sm sm:text-base">
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                  <i class="fas fa-check-circle text-green-500"></i>
+                  <span class="text-gray-700">1000+ Practice MCQs</span>
+                </div>
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                  <i class="fas fa-check-circle text-green-500"></i>
+                  <span class="text-gray-700">Detailed Explanations</span>
+                </div>
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                  <i class="fas fa-check-circle text-green-500"></i>
+                  <span class="text-gray-700">Visual Diagrams</span>
+                </div>
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                  <i class="fas fa-check-circle text-green-500"></i>
+                  <span class="text-gray-700">Exam Strategies</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="absolute -top-4 -right-4 w-6 h-6 sm:w-8 sm:h-8 bg-yellow-400 rounded-full animate-float"></div>
+            <div class="absolute -bottom-4 -left-4 w-4 h-4 sm:w-6 sm:h-6 bg-pink-400 rounded-full animate-float" style="animation-delay: -1s;"></div>
+            <div class="absolute top-1/2 -left-6 w-3 h-3 sm:w-4 sm:h-4 bg-blue-400 rounded-full animate-float" style="animation-delay: -2s;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 sm:py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center">
+        <div class="animate-fadeInUp">
+          <div class="text-3xl sm:text-4xl font-bold stats-counter mb-1 sm:mb-2" data-target="2000">0</div>
+          <p class="text-gray-600 text-sm sm:text-base">Students Served</p>
+        </div>
+        <div class="animate-fadeInUp" style="animation-delay: 0.1s;">
+          <div class="text-3xl sm:text-4xl font-bold stats-counter mb-1 sm:mb-2" data-target="98">0</div>
+          <p class="text-gray-600 text-sm sm:text-base">Success Rate %</p>
+        </div>
+        <div class="animate-fadeInUp" style="animation-delay: 0.2s;">
+          <div class="text-3xl sm:text-4xl font-bold stats-counter mb-1 sm:mb-2" data-target="1000">0</div>
+          <p class="text-gray-600 text-sm sm:text-base">Practice MCQs</p>
+        </div>
+        <div class="animate-fadeInUp" style="animation-delay: 0.3s;">
+          <div class="text-3xl sm:text-4xl font-bold stats-counter mb-1 sm:mb-2" data-target="4">0</div>
+          <p class="text-gray-600 text-sm sm:text-base">Days Delivery</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="py-16 sm:py-20 bg-gradient-to-br from-gray-50 to-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12 sm:mb-16 animate-fadeInUp">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Why Choose Dr. Sohail's Guide?</h2>
+        <p class="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto">
+          Comprehensive, scientifically-designed study material that has helped thousands of students achieve their medical dreams.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div class="card-hover bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+            <i class="fas fa-certificate text-xl sm:text-2xl feature-icon"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">PMC Verified Content</h3>
+          <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+            100% aligned with the latest PMC syllabus and exam patterns. Updated annually with new regulations.
+          </p>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+            <i class="fas fa-brain text-xl sm:text-2xl"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Memory Techniques</h3>
+          <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+            Proven mnemonics and visual memory aids that make complex biological concepts easy to remember.
+          </p>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+            <i class="fas fa-clock text-xl sm:text-2xl"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Time Management</h3>
+          <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+            Expert strategies for solving MCQs faster and managing exam time effectively.
+          </p>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-pink-500 to-red-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+            <i class="fas fa-chart-line text-xl sm:text-2xl"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Progress Tracking</h3>
+          <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+            Built-in assessment tools to track your improvement and identify weak areas.
+          </p>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-6 sm:p-8 shadow-lg md:col-span-2 lg:col-span-1">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-indigo-500 to-blue-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+            <i class="fas fa-balance-scale text-xl sm:text-2xl"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Why Dr. Sohail's Guide Stands Out</h3>
+          <div class="overflow-x-auto">
+            <table class="min-w-full comparison-table text-sm sm:text-base">
+              <thead>
+                <tr>
+                  <th class="rounded-tl-xl">Feature</th>
+                  <th>Dr. Sohail's Guide</th>
+                  <th class="rounded-tr-xl">Other Guides</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="feature-column">Comprehensive MCQs</td>
+                  <td class="dr-sohail-column">1000+ with Explanations</td>
+                  <td class="other-guides-column">Limited/Answer Keys Only</td>
+                </tr>
+                <tr>
+                  <td class="feature-column">Detailed Explanations</td>
+                  <td class="dr-sohail-column">In-depth for every concept</td>
+                  <td class="other-guides-column">Brief or Missing</td>
+                </tr>
+                <tr>
+                  <td class="feature-column">Memory Techniques</td>
+                  <td class="dr-sohail-column">Integrated Mnemonics</td>
+                  <td class="other-guides-column">Rarely Included</td>
+                </tr>
+                <tr>
+                  <td class="feature-column">Syllabus Alignment</td>
+                  <td class="dr-sohail-column">100% PMC Verified & Updated</td>
+                  <td class="other-guides-column">Varies, Often Outdated</td>
+                </tr>
+                <tr>
+                  <td class="feature-column">Success Rate</td>
+                  <td class="dr-sohail-column">Proven High Success</td>
+                  <td class="other-guides-column">Unverified Claims</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card-hover bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
+            <i class="fas fa-mobile-alt text-xl sm:text-2xl"></i>
+          </div>
+          <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Digital Access</h3>
+          <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+            Bonus digital materials including video explanations and mobile-friendly content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="buy" class="py-16 sm:py-20 bg-gradient-to-br from-green-50 to-teal-50">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="text-center mb-10 sm:mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Secure Your Success Today</h2>
+        <p class="text-base sm:text-xl text-gray-600">Join thousands of successful MDCAT students</p>
+        
+        <div class="flex items-center justify-center space-x-4 sm:space-x-6 mt-4 sm:mt-6">
+          <div class="text-center">
+            <div class="text-2xl sm:text-3xl font-bold text-green-600">Rs. 1,500</div>
+            <div class="text-gray-500 line-through text-sm sm:text-base">Rs. 2,500</div>
+          </div>
+          <div class="bg-red-500 text-white px-3 py-1 sm:px-4 sm:py-2 rounded-full font-semibold text-sm sm:text-base">
+            40% OFF - Limited Time!
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
+        <form id="order-form" class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl">
+          <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Order Details</h3>
+          
+          <div class="space-y-4 sm:space-y-6">
+            <div>
+              <label for="name" class="block text-gray-700 mb-1 sm:mb-2 font-semibold text-sm sm:text-base">
+                <i class="fas fa-user mr-2 text-green-600"></i>Full Name
+              </label>
+              <input type="text" id="name" name="name" required
+                     class="w-full p-3 sm:p-4 border-2 border-gray-200 rounded-xl focus:border-green-500 focus:ring-0 transition-all text-sm sm:text-base"
+                     placeholder="Enter your full name">
+              <p class="validation-message hidden text-red-500 text-xs sm:text-sm mt-1"></p>
+            </div>
+
+            <div>
+              <label for="phone" class="block text-gray-700 mb-1 sm:mb-2 font-semibold text-sm sm:text-base">
+                <i class="fas fa-phone mr-2 text-green-600"></i>Phone Number
+              </label>
+              <input type="tel" id="phone" name="phone" required
+                     class="w-full p-3 sm:p-4 border-2 border-gray-200 rounded-xl focus:border-green-500 focus:ring-0 transition-all text-sm sm:text-base"
+                     placeholder="+92 300 1234567">
+              <p class="validation-message hidden text-red-500 text-xs sm:text-sm mt-1"></p>
+            </div>
+
+            <div>
+              <label for="address" class="block text-gray-700 mb-1 sm:mb-2 font-semibold text-sm sm:text-base">
+                <i class="fas fa-map-marker-alt mr-2 text-green-600"></i>Delivery Address
+              </label>
+              <textarea id="address" name="address" rows="3" required
+                        class="w-full p-3 sm:p-4 border-2 border-gray-200 rounded-xl focus:border-green-500 focus:ring-0 transition-all text-sm sm:text-base"
+                        placeholder="Complete address with city and postal code"></textarea>
+              <p class="validation-message hidden text-red-500 text-xs sm:text-sm mt-1"></p>
+            </div>
+
+            <div>
+              <label for="quantity" class="block text-gray-700 mb-1 sm:mb-2 font-semibold text-sm sm:text-base">
+                <i class="fas fa-book mr-2 text-green-600"></i>Quantity
+              </label>
+              <input type="number" id="quantity" name="quantity" min="1" value="1" required
+                     class="w-full p-3 sm:p-4 border-2 border-gray-200 rounded-xl focus:border-green-500 focus:ring-0 transition-all text-sm sm:text-base">
+              <p class="validation-message hidden text-red-500 text-xs sm:text-sm mt-1"></p>
+            </div>
+
+            <div>
+              <label for="payment_method" class="block text-gray-700 mb-1 sm:mb-2 font-semibold text-sm sm:text-base">
+                <i class="fas fa-money-bill-wave mr-2 text-green-600"></i>Payment Method
+              </label>
+              <select id="payment_method" name="payment_method" required
+                      class="w-full p-3 sm:p-4 border-2 border-gray-200 rounded-xl focus:border-green-500 focus:ring-0 transition-all text-sm sm:text-base">
+                <option value="Cash on Delivery">Cash on Delivery</option>
+              </select>
+              <p class="validation-message hidden text-red-500 text-xs sm:text-sm mt-1"></p>
+            </div>
+
+            <button type="submit" id="submit-button"
+                    class="w-full px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-green-600 to-teal-600 text-white rounded-xl font-semibold text-base sm:text-lg hover:shadow-xl transition-all transform hover:scale-105 flex items-center justify-center space-x-3">
+              <span id="button-text">Place Order Now</span>
+              <div id="spinner" class="spinner hidden"></div>
+            </button>
+            <p id="form-message" class="text-center mt-3 text-sm"></p>
+          </div>
+        </form>
+
+        <div class="flex items-center justify-center p-4 sm:p-8">
+          <div class="book-3d bg-white rounded-2xl shadow-2xl p-6 sm:p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500 w-full max-w-sm sm:max-w-md">
+            <div class="bg-gradient-to-br from-green-500 to-teal-600 rounded-xl p-4 sm:p-6 text-white mb-4 sm:mb-6">
+              <h3 class="text-xl sm:text-2xl font-bold mb-1 sm:mb-2">MDCAT Biology</h3>
+              <p class="text-green-100 text-sm sm:text-base">Complete Success Guide</p>
+              <div class="flex items-center justify-between mt-3 sm:mt-4">
+                <span class="text-green-100 text-sm sm:text-base">Dr. Sohail</span>
+                <div class="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <i class="fas fa-microscope text-lg sm:text-xl"></i>
+                </div>
+              </div>
+            </div>
+            
+            <div class="space-y-3 sm:space-y-4 text-sm sm:text-base">
+              <div class="flex items-center space-x-2 sm:space-x-3">
+                <i class="fas fa-check-circle text-green-500"></i>
+                <span class="text-gray-700">1000+ Practice MCQs</span>
+              </div>
+              <div class="flex items-center space-x-2 sm:space-x-3">
+                <i class="fas fa-check-circle text-green-500"></i>
+                <span class="text-gray-700">Detailed Explanations</span>
+              </div>
+              <div class="flex items-center space-x-2 sm:space-x-3">
+                <i class="fas fa-check-circle text-green-500"></i>
+                <span class="text-gray-700">Visual Diagrams</span>
+              </div>
+              <div class="flex items-center space-x-2 sm:space-x-3">
+                <i class="fas fa-check-circle text-green-500"></i>
+                <span class="text-gray-700">Exam Strategies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 sm:py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <div class="text-center mb-10 sm:mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Contact Us</h2>
+        <p class="text-base sm:text-xl text-gray-600">Reach out to us directly!</p>
+      </div>
+      <div class="flex justify-center">
+        <div class="bg-gray-50 rounded-2xl p-6 sm:p-8 shadow-lg text-gray-700 w-full max-w-md">
+          <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Get in Touch</h3>
+          <div class="space-y-4 text-gray-700">
+            <p class="flex items-center text-lg"><i class="fas fa-phone-alt mr-3 text-green-600"></i><a href="tel:+923149890680" class="hover:underline">+92 314 9890680</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy-policy" class="py-16 sm:py-20 bg-gray-100">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <div class="text-center mb-10 sm:mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Privacy Policy</h2>
+        <p class="text-base sm:text-xl text-gray-600">Your privacy is important to us.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg text-gray-700 leading-relaxed">
+        <p class="mb-4">
+          At MediSuccess Publications, we are committed to protecting your privacy. This policy explains how we collect, use, and protect your personal information.
+        </p>
+        <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Information We Collect</h3>
+        <p class="mb-4">
+          We only collect personal information that is absolutely necessary for processing and delivering your orders. This includes:
+        </p>
+        <ul class="list-disc list-inside space-y-2 mb-4">
+          <li>Your full name</li>
+          <li>Phone number</li>
+          <li>Delivery address (including city and postal code)</li>
+          <li>Quantity of books ordered</li>
+          <li>Selected payment method (Cash on Delivery)</li>
+        </ul>
+        <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">How We Use Your Information</h3>
+        <p class="mb-4">
+          The information collected is used *purely for delivery purposes*. Specifically, it enables us to:
+        </p>
+        <ul class="list-disc list-inside space-y-2 mb-4">
+          <li>Process your order efficiently.</li>
+          <li>Ship your MDCAT Biology guide to the correct address.</li>
+          <li>Contact you regarding your order status or delivery details.</li>
+        </ul>
+        <p class="mb-4">
+          We do not use your personal information for marketing, analytics, or any other purposes beyond order fulfillment. We do not share, sell, or rent your personal data to third parties for their marketing purposes.
+        </p>
+        <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Data Security</h3>
+        <p class="mb-4">
+          We implement a variety of security measures to maintain the safety of your personal information when you place an order. Access to your data is restricted to personnel involved in order processing and delivery.
+        </p>
+        <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Your Consent</h3>
+        <p>
+          By placing an order on our website, you consent to our privacy policy.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <div class="mb-4">
+        <a href="#home" class="text-gray-300 hover:text-white mx-2">Home</a>
+        <a href="#features" class="text-gray-300 hover:text-white mx-2">Features</a>
+        <a href="#testimonials" class="text-gray-300 hover:text-white mx-2">Reviews</a>
+        <a href="#buy" class="text-gray-300 hover:text-white mx-2">Order</a>
+        <a href="#contact" class="text-gray-300 hover:text-white mx-2">Contact</a>
+        <a href="#privacy-policy" class="text-gray-300 hover:text-white mx-2">Privacy Policy</a>
+      </div>
+      <p class="text-sm text-gray-400">© 2025 MediSuccess Publications. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript for sticky header and progress bar
+    window.addEventListener('scroll', function() {
+      const header = document.getElementById('header');
+      const progressBar = document.getElementById('progress-bar');
+      const scrollPosition = window.scrollY;
+
+      // Sticky header with blur effect
+      if (scrollPosition > 50) {
+        header.classList.add('sticky-header', 'shadow-md');
+      } else {
+        header.classList.remove('sticky-header', 'shadow-md');
+      }
+
+      // Progress bar
+      const totalHeight = document.body.scrollHeight - window.innerHeight;
+      const progress = (scrollPosition / totalHeight) * 100;
+      progressBar.style.width = progress + '%';
+    });
+
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close mobile menu when a link is clicked
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.getElementById('mobile-menu').classList.add('hidden');
+      });
+    });
+
+    // Counter animation for stats section
+    const counters = document.querySelectorAll('.stats-counter');
+    const speed = 200; // The lower the speed, the faster the count
+
+    const animateCounter = (counter) => {
+      const target = +counter.getAttribute('data-target');
+      const updateCount = () => {
+        const data = +counter.innerText;
+        const increment = target / speed;
+        if (data < target) {
+          counter.innerText = Math.ceil(data + increment);
+          setTimeout(updateCount, 1);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      updateCount();
+    };
+
+    // Intersection Observer for counters
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5 // Trigger when 50% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          observer.unobserve(entry.target); // Stop observing once animated
+        }
+      });
+    }, options);
+
+    counters.forEach(counter => {
+      observer.observe(counter);
+    });
+
+    // Form validation and submission to Google Sheets
+    const orderForm = document.getElementById('order-form');
+    const submitButton = document.getElementById('submit-button');
+    const buttonText = document.getElementById('button-text');
+    const spinner = document.getElementById('spinner');
+    const formMessage = document.getElementById('form-message');
+
+    // !!! IMPORTANT: PASTE YOUR GOOGLE APPS SCRIPT WEB APP URL HERE !!!
+    // It should look something like: 'https://script.google.com/macros/s/AKfycbzzzzzzzzzzzzzzzzzzzzzzzzzzzzz/exec'
+    const GOOGLE_SHEET_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbyNmZlwEoqCIkUguK8--DglZO1lQL7kVap3vY-P94qPe7RNLu0WHLFVxWoaf6n-esSV-g/exec'; // <<< REPLACE THIS LINE
+
+    orderForm.addEventListener('submit', async function(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      let isValid = true;
+      const inputs = orderForm.querySelectorAll('input[required], textarea[required], select[required]');
+      const formData = new FormData(orderForm); // Create FormData object
+
+      inputs.forEach(input => {
+        const validationMessage = input.nextElementSibling;
+        if (!input.value.trim()) {
+          isValid = false;
+          input.classList.add('border-red-500');
+          validationMessage.textContent = 'This field is required.';
+          validationMessage.classList.remove('hidden');
+        } else {
+          input.classList.remove('border-red-500');
+          validationMessage.classList.add('hidden');
+        }
+      });
+
+      if (isValid) {
+        // Show spinner and disable button
+        buttonText.classList.add('hidden');
+        spinner.classList.remove('hidden');
+        submitButton.disabled = true;
+        submitButton.classList.add('opacity-70', 'cursor-not-allowed');
+        formMessage.textContent = 'Submitting order...';
+        formMessage.classList.remove('text-red-500', 'text-green-600');
+        formMessage.classList.add('text-gray-500');
+
+        try {
+          // Send form data to Google Apps Script
+          const response = await fetch(GOOGLE_SHEET_WEB_APP_URL, {
+            method: 'POST',
+            body: formData // FormData automatically sets 'Content-Type': 'application/x-www-form-urlencoded'
+          });
+
+          const result = await response.json();
+
+          if (result.result === 'success') {
+            formMessage.textContent = 'Order placed successfully! We will contact you soon for delivery.';
+            formMessage.classList.remove('text-red-500', 'text-gray-500');
+            formMessage.classList.add('text-green-600');
+            orderForm.reset(); // Clear the form on success
+          } else {
+            console.error('Submission error:', result.error);
+            formMessage.textContent = 'Failed to place order. Please try again or contact support.';
+            formMessage.classList.remove('text-green-600', 'text-gray-500');
+            formMessage.classList.add('text-red-500');
+          }
+        } catch (error) {
+          console.error('Network error or unexpected response:', error);
+          formMessage.textContent = 'A network error occurred. Please check your internet connection and try again.';
+          formMessage.classList.remove('text-green-600', 'text-gray-500');
+          formMessage.classList.add('text-red-500');
+        } finally {
+          // Hide spinner and enable button
+          buttonText.classList.remove('hidden');
+          spinner.classList.add('hidden');
+          submitButton.disabled = false;
+          submitButton.classList.remove('opacity-70', 'cursor-not-allowed');
+        }
+      } else {
+        formMessage.textContent = 'Please fill in all required fields.';
+        formMessage.classList.remove('text-green-600', 'text-gray-500');
+        formMessage.classList.add('text-red-500');
+      }
+    });
+
+    // Clear validation messages on input focus
+    orderForm.querySelectorAll('input, textarea, select').forEach(input => {
+      input.addEventListener('focus', function() {
+        const validationMessage = this.nextElementSibling;
+        this.classList.remove('border-red-500');
+        if (validationMessage) {
+          validationMessage.classList.add('hidden');
+        }
+        formMessage.textContent = ''; // Clear general form message
+      });
+    });
+  </script>
+</body>
+</html>
