@@ -205,6 +205,12 @@
     .comparison-table .other-guides-column {
       color: #ef4444; /* red-500 */
     }
+
+    @media (max-width: 500px){
+      .inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold mb-4 md:mb-6{
+        display: none;
+      }
+    }
   </style>
 </head>
 <body class="bg-gray-50 scroll-smooth">
@@ -227,7 +233,6 @@
       <div class="hidden md:flex items-center space-x-8">
         <a href="#home" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Home</a>
         <a href="#features" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Features</a>
-        <a href="#testimonials" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Reviews</a>
         <a href="#buy" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Order</a>
         <a href="#contact" class="nav-link text-gray-700 hover:text-green-600 transition-colors relative">Contact</a>
         <a href="https://www.youtube.com/@BiologywithDrSohail" target="_blank" 
